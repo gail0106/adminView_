@@ -1589,11 +1589,11 @@ function printDocumentFromModal() {
 
 function printDocument(docType) {
     const documentTemplates = {
-        'Barangay Clearance': '../Admin/Cert-Admin/up-clear.html',
-        'Certificate of Residency': '../Admin/Cert-Admin/up-reside.html',
-        'First Time Job Seeker': '/Cert-Admin/up-jobseek.html',
-        'Certificate of Indigency': '../Admin/Cert-Admin/up-ind.html',
-        'Business Permit': '../Admin/Cert-Admin/up-bpermit.html'
+        'Barangay Clearance': 'Cert-Admin/up-clear.html',
+        'Certificate of Residency': 'Cert-Admin/up-reside.html',
+        'First Time Job Seeker': 'Cert-Admin/up-jobseek.html',
+        'Certificate of Indigency': 'Cert-Admin/up-ind.html',
+        'Business Permit': 'Cert-Admin/up-bpermit.html'
     };
     
     const templateUrl = documentTemplates[docType];
