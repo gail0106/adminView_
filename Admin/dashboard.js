@@ -9,7 +9,7 @@ let applicantsData = [
     name: 'Juan Dela Cruz',
     age: 28,
     address: '123 Main St, Barangay Market Area',
-    birthplace: 'Manila, Philippines',
+    birthplace: 'Manila, PhiliFppines',
     civilStatus: 'Single',
     requestedBy: 'Juan Dela Cruz',
     placeIssued: 'Barangay Market Area',
@@ -3631,7 +3631,7 @@ function logoutAdmin() {
     // Your existing logout logic here
     // console.log('Admin logged out');
     // Example: redirect to login page
-     window.location.href = '../Log-In_and_Reg/adminLogIn.html';
+     window.location.href = '../index.html';
 }
 
 
